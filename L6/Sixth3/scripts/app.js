@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 let basketBtns = document.querySelectorAll('.toBasketBtn');
 basketBtns.forEach(function (btn) {
     btn.addEventListener('click', function (event) {
@@ -95,4 +95,4 @@ let basket = {
             this.products[id].count--;
         }
     }
-}
+};
